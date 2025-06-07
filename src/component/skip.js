@@ -3,7 +3,7 @@ import axios from "axios";
 import "./SkipSelector.css";
 import { FaRoad, FaTrash } from "react-icons/fa";
 import NAVBAR from "./navbar";
-import { useIsMobile } from "./hooks/useIsMobile";
+import { useIsMobile } from "./hooks/use-mobile";
 
 const SkipSelector = () => {
   const [skips, setSkips] = useState([]);
